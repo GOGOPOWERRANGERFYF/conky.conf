@@ -108,7 +108,7 @@ ${font Symbola:size=18}♻${font}${font DejaVu Sans Mono:size=11} NETWORKING:$st
  IP:${addr enp3s0}${alignr}GateWay:${gw_ip}
  Down:${downspeed enp3s0}${alignr}total:${totaldown enp3s0}
  Up:${upspeed enp3s0}${alignr}total:${totalup enp3s0}
- ${downspeedgraph enp3s0 40,118}${alignr}${upspeedgraph enp3s0 40,118}
+ ${downspeedgraph "enp3s0" 40,118}${alignr}${upspeedgraph "enp3s0" 40,118}
 ${font Symbola:size=18}☢${font}${font DejaVu Sans Mono:size=11} PROCESSES:${font}$stippled_hr
  Processes: $processes  ${color cfcfcf}Running:$color $running_processes
  ${color cfcfcf}Name              PID   CPU%   MEM%
